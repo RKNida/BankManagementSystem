@@ -72,7 +72,7 @@ CREATE TABLE `Customer` (
 
 LOCK TABLES `Customer` WRITE;
 /*!40000 ALTER TABLE `Customer` DISABLE KEYS */;
-INSERT INTO `Customer` VALUES ('Riddhi','Sanghvi','Shivajinagr, Pune -03','rsanghvi97@gmail.com','7709319760','111111222222','1997-10-31','Female','Riddhi'),('Ruchi','Shinde','Hadapsar,Pune -12','ruchi@gmail.com','8446018873','222222111111','1997-07-13','Female','RuchiS'),('Nida','Shaikh','Camp,Pune-01','nidas@gmail.com','9970966178','222222333333','1997-11-20','Female','NidaS'),('Shikha','Jaiswal','ABC,Pune-14','shikhaJ@yahoo.com','9096761781','333333222222','1996-12-02','Female','Shikh'),('Priyanka','Lokhande','Vishrantwadi,Pune-01','pri97@gmail.com','9762904612','333333444444','1997-10-25','Female','Pri'),('Sharvari','Kulkarni','Vimannagar,Pune-02','sharvari@gmail.com','7709880176','444444333333','1997-03-04','Female','Shar');
+INSERT INTO `Customer` VALUES ('Riddhi','Sanghvi','Shivajinagr, Pune -03','rsanghvi97@gmail.com','7709319760','111111222222','1997-10-31','Female','Riddhi'),('Ruchi','Shinde','Hadapsar,Pune -12','ruchi@gmail.com','8446018873','222222111111','1997-07-13','Female','RuchiS'),('Shikha','Jaiswal','ABC,Pune-14','shikhaJ@yahoo.com','9096761781','333333222222','1996-12-02','Female','Shikh'),('Priyanka','Lokhande','Vishrantwadi,Pune-01','pri97@gmail.com','9762904612','333333444444','1997-10-25','Female','Pri'),('Sharvari','Kulkarni','Vimannagar,Pune-02','sharvari@gmail.com','7709880176','444444333333','1997-03-04','Female','Shar');
 /*!40000 ALTER TABLE `Customer` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -126,7 +126,7 @@ CREATE TABLE `User` (
 
 LOCK TABLES `User` WRITE;
 /*!40000 ALTER TABLE `User` DISABLE KEYS */;
-INSERT INTO `User` VALUES ('NidaS','nida'),('Pri','Pri123'),('Riddhi','sangss'),('RuchiS','ruchi'),('Shar','shar'),('Shikh','shikha');
+INSERT INTO `User` VALUES ('Pri','Pri123'),('Riddhi','sangss'),('RuchiS','ruchi'),('Shar','shar'),('Shikh','shikha');
 /*!40000 ALTER TABLE `User` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
